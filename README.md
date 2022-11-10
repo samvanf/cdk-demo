@@ -13,3 +13,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
 * `cdk destroy`     destroys the deployed infrastructure
+
+## TODO:
+
+* Figure out how to make an image that automatically spins up this Nestjs app: https://github.com/samvanf/docker-full-stack-app/tree/master/packages/nestjs
