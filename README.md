@@ -17,3 +17,8 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 ## TODO:
 
 * Figure out how to make an image that automatically spins up this Nestjs app: https://github.com/samvanf/docker-full-stack-app/tree/master/packages/nestjs
+
+According to [this Github issue](https://github.com/aws/aws-cdk/issues/12597), the only way to deploy a custom Docker image to our ECR repo is to use this package:
+
+https://github.com/cdklabs/cdk-ecr-deployment
+
